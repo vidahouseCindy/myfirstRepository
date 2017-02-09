@@ -11,3 +11,7 @@ hint: not have locally. This is usually caused by another repository pushing
 hint: to the same ref. You may want to first integrate the remote changes
 hint: (e.g., 'git pull ...') before pushing again.
 hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+&&原因：github上的readme.md文件不在本地代码目录中
+通过如下命令进行代码合并【注：pull=fetch+merge]
+git pull --rebase origin master
+然后再上传到github,push -u origin master
