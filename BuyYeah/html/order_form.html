@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>订单</title>
+		<link rel="stylesheet" href="../css/common.css" />
+		<link rel="stylesheet" href="../css/order_form.css" />
+		<script src="../js/jquery.js"></script>
+		<script src="../js/index.js"></script>
+	</head>
+	<body>
+		<!--
+				头部
+				时间：2016-04-11
+        -->
+	  <div class="top">
+			<img src="../img/top0.png" />
+			<span id="hello">欢迎光临香港.买Yeah网！</span><a id="a1" href="html/register.html">登录</a><span id="clear">或</span><a id="a2" style="color:#FF6C02;text-decoration: underline;">注册</a>
+			<ul>
+				<li><a href="#">帮助中心</a></li>
+				<li><a href="#">联系我们</a></li>
+				<li><a href="#">预约购买</a></li>
+				<li><a href="#">网站导航</a></li>
+				<li><a href="#">繁體版</a></li>
+			</ul>
+		</div>
+
+<!--
+	logo
+	时间：2016-04-11
+-->
+		<div class="logo">
+			<div class="logo_left">
+				<h1><img src="../img/logo.png"/></h1></div>
+			<div class="logo_middle">
+				<p class="p1"><input type="text" value="请输入你要查找的商品" />
+					<a href="#"><img src="../img/search.png" /></a>
+				</p>
+				<p class="p2">
+					<a href="#">悦诗风吟</a>
+					<a href="#">碧柔</a>
+					<a href="#">SNP</a>
+					<a href="#">水宝宝</a>
+					<a href="#">高丝</a>
+					<a href="#">乐高</a>
+				</p>
+			</div>
+			
+			<div class="logo_right">
+				<div class="img"><img src="../img/shopping0.png" /></div>
+				<p><span>购物车(0) 件</span></p>
+				<div class="cart" style="display: none;">
+					<ul>
+						<li>购物车为空，<a href="#">欢迎购物！</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		
+		<!--
+          页面导航
+          时间：2016-04-08
+        -->
+		<div class="nav">
+			<ul class="left">
+				<li><a href="../index.html">首页</a></li>
+				<li><a href="#">名品专场</a></li>
+				<li><a href="#">美妆商城</a></li>
+				<li><a href="#">亲子母婴</a></li>
+				<li><a href="#">关于我们</a></li>
+			</ul>
+
+			<ul class="right">
+				<li id="right_first"><img src="../img/nav1.png" /></li>
+				<li><img src="../img/nav2.png" /></li>
+				<li><img src="../img/nav3.png" /></li>
+			</ul>
+		</div>
+		
+		<!--
+        	主体
+        -->
+        <div class="user_inf">
+        	<div class="left_nav">
+        		<h3>用户中心</h3>
+        		<ul>
+        			<li class="one"><a href="#">欢迎页</a></li>
+        			<li><a href="#">用户信息</a></li>
+        			<li><a href="order_form.html">我的订单</a></li>
+        			<li><a href="shouhuo_information.html">收货地址</a></li>
+        			<li><a href="#">我的收藏</a></li>
+        			<li><a href="liuyan.html">我的留言</a></li>
+        			<li><a href="#">我的标签</a></li>
+        			<li><a href="#">我的红包</a></li>
+        			<li><a href="#">我的评论</a></li>
+        			<li><a href="#">资金管理</a></li>
+        		</ul>
+        	</div>
+        	
+        		<div class="right">
+        		<div class="pre_position">
+        			<span>当前位置:<a id="pre"href="#">首页</a>>用户中心</span>
+        		</div>
+        		<div class="detail_info">
+        			<h3>我的订单</h3>
+        			<table width="820" cellspacing="1" bgcolor="#dddddd" cellpadding="10"  border="0">
+        				<tr>
+        					<td>订单号</td>
+        					<td>订单时间</td>
+        					<td>总金额</td>
+        					<td>应付金额</td>
+        					<td>已付金额</td>
+        					<td>订单状态</td>
+        					<td>操作</td>
+        				</tr>
+        			</table>
+        		</div>
+        		
+        		<div class="combine">
+        			<h3>合并订单</h3>
+        			<table width="820" cellspacing="1" bgcolor="#dddddd" cellpadding="10"  border="0">
+        				<tr>
+        					<td>主订单：</td>
+        					<td><select>
+        						<option>请选择</option>
+        						<option>订单1</option>
+        						<option>订单2</option>
+        					</select></td>
+        					<td>从订单：</td>
+        					<td><select>
+        						<option>请选择</option>
+        						<option>订单1</option>
+        						<option>订单2</option>
+        					</select></td>
+        					<td><button style="border:2px solid #ff5000;background: #FF6D00;cursor: pointer;">合并订单</button></td>
+        		    	</tr>
+        		    	
+        		    	<tr >
+        		    		<td>&nbsp;</td>
+        		    		<td colspan="4" style="color: #C2100E">合并订单是指将相同的订单合并成一新订单<br/>
+        		    			收货地址以主订单为主
+        		    		</td>
+        		    		
+        		    	</tr>
+        			</table>
+        		</div>
+        	</div>
+        </div>
+        
+        <!--
+         尾部
+          时间：2016-04-10
+           -->
+
+		<div class="footer">
+			<div class="main">
+				<div class="ul_list">
+					<ul>
+						<li class="dif">买Yeah网承诺</li>
+						<li>100% 海外原装</li>
+						<li>七天包退换</li>
+						<li>绿色流程</li>
+					</ul>
+	
+					<ul>
+						<li class="dif">物流配送</li>
+						<li>香港直邮</li>
+						<li>七天包退换</li>
+						<li>绿色流程</li>
+					</ul>
+	                <ul>
+						<li class="dif">新手指南</li>
+						<li>100% 海外原装</li>
+						<li>七天包退换</li>
+						<li>绿色流程</li>
+					</ul>
+					<ul>
+						<li class="dif">客服中心</li>
+						<li>100% 海外原装</li>
+						<li>七天包退换</li>
+						<li>绿色流程</li>
+					</ul>
+					<ul>
+						<li class="dif">ceo邮箱</li>
+						<li>100% 海外原装</li>
+						<li>七天包退换</li>
+						<li>绿色流程</li>
+					</ul>
+				</div>
+	
+	               <div class="code">
+	               	 <img src="../img/erweima.jpg" />
+	               </div>
+            </div>
+               
+               <div class="footer_nav">
+               		<ul>
+               			<li>关于买Yeah</li>
+               			<li>使用条款</li>
+               			<li>批发服务</li>
+               			<li>招商合作</li>
+               			<li>人才服务</li>
+               			<li>联系我们</li>
+               			<li>物流查询</li>
+               			<li class="focus"><img src="../img/focus.png"/></li>
+               		</ul>
+               </div>
+              
+             <div class="copyright">
+             	<p>© 2005-2016 maiyeah.com 版权所有，并保留所有权利。 
+             		<a href="http://www.beianbeian.com/beianxinxi/09fb609d-49cc-40b5-9545-4bcdf2baa386.html"  target="_blank">粤ICP备13028653号-2</a>
+             		<a href="http://www.kuaidi100.com/" target="_blank" style="font-size:12px;" target="_blank">快递查询</a>
+             	</p>
+             		<p class="shanbiao"><img src="../img/shanbiao.jpg"/><img src="../img/shanbiao.jpg"/><img src="../img/shanbiao.jpg"/><img src="../img/shanbiao.jpg"/></p>
+             </div> 
+     </div>
+		
+		
+		
+	</body>
+</html>

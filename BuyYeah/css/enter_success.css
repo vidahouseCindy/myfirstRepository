@@ -1,0 +1,8 @@
+@charset "utf-8";
+.success_info{width: 1020px;height: 212px;margin:0  auto 21px;}
+.success_info h4{width: 1020px;height:20px;padding-top: 20px;}
+.hint{width: 1020px;height: 170px;border: 1px solid #CECECE;}
+.success_info .hint h4{font-weight:bold;width:1012px;padding:0 0 0 8px;height:30px;line-height:30px;border-bottom: 1px solid #DCDCDC;background: #f2f2f2;}
+.success_info .hint p{margin-left:440px;}
+.success_info .hint a{color: black;}
+.success_info .hint a:hover{color: #FE6C00;}

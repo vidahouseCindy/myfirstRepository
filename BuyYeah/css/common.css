@@ -1,0 +1,74 @@
+@charset "utf-8";
+body,ul,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,p,img,form,html,fieldset{margin:0;padding:0;}
+body{font:12px "宋体";}
+ul,li,ol{list-style:none;}
+a{text-decoration:none;color:white}
+img{border:none;}
+.left{float:left;}
+.right{float:right;}
+h1,h2,h3,h4,h5,h6{font-weight:normal;font-size:12px;}
+body,html{width:1440px;}
+
+/*头部*/
+.top{width: 1440px;height:30px;margin:auto;background:#f2f2f2;border-bottom:1px solid #cfcfcf;}
+.top img{margin-left:56px;}
+.top span{color:#99a4bd;font-size: 13px;text-align: center;line-height: 30px;margin:0 6px;}
+.top #a1{text-decoration:underline;color:#ff6c02;}
+.top ul{float:right;margin-right:66px;}
+.top ul li{float:left;text-align: center;line-height: 30px;padding-left:20px;color:#99a4bd;font-size: 13px;}
+.top ul li a{color:#99a4bd;}
+.top ul li a:hover{color:#ff6c02}
+
+/*logo*/
+.logo{width:1440px;height:115px;margin:auto;position: relative;}
+.logo div{float: left;}
+.logo .logo_left{width:446px;height:115px;}
+.logo_left  h1 img{margin:14px 0 0 58px;}
+.logo_middle{width:638px;height:115px;}
+.logo_middle .p1{width: 420px;height:38px;background: #ff6d00;margin-top:35px}
+.logo_middle .p1 input{width:299px;height:30px;border:none;margin:3px;}
+.logo_middle .p1 img{display:block;float:right;margin-right:41px;padding-top:9px}
+.logo_middle a{font-size: 13px;color:#99a4bd;margin: 4px 0 0 5px;}
+.logo_middle a:hover{color:#ff6c02;}
+.logo_right{width:224px;height:115px;}
+.logo_right .img{margin-top:46px;margin-right:14px;width:23px;height:21px;}
+.logo_right p{font-size: 17px;color:#93bc3a;font-weight: bold;margin-top:46px;}
+
+/*划入出现的购物车*/
+.logo_right .cart{width:240px;height:70px;border:1px solid #99a4bd;border-top:none;position:absolute;
+top:63px;left:1004px;z-index:1001;background:white}
+.logo_right .cart li{line-height:40px;color:#93bc3a;font-size:17px;border-bottom:1px dashed #99a4bd;}
+.logo_right .cart li a{color:black;}
+.logo_right .cart li a:hover{color:#ff6c02;}
+
+/* 页面主导航*/
+.nav{width:1440px;height: 41px;background:#fe6c00;}
+.nav .left{margin-left:54px;}
+.nav .left li{float: left;}
+.nav .left li a{font-size:14px;width:96px;height:41px;display: block;text-align: center;line-height: 41px;}
+.nav .left li a:hover{background: #facdb1;}
+.nav .right{width:340px;float: right;}
+.nav .right li{float:left}
+
+/*尾部*/
+.footer{width: 1440px;height: 363px;background:url(../img/logo02.png) no-repeat 60px 38px;border-top: 1px solid black;}
+.footer .main{width:1440px;height:165px;}
+.footer .ul_list{width:700px;height: 165px;float: left;padding-left: 430px;}
+.footer .ul_list ul{float: left;margin-right:55px;line-height: 24px;padding-top: 32px;color: #424242;}
+.footer .ul_list ul li{cursor: pointer;}
+.footer .ul_list ul li:hover{color:#FE6C00;}
+.footer .ul_list .dif{font-size: 16px;color: #ff6633;font-weight: bolder;}
+.footer .code{float: left;margin:32px 0 0 10px;width:253px;height: 133px;}
+.footer .footer_nav{width: 1340px;height: 30px;border-top:1px solid #808080;border-bottom: 1px solid #808080;margin-left:50px;}
+.footer_nav ul{margin-left:300px;}
+.footer_nav ul li{cursor:pointer;text-align:center;margin-top:15px;width: 89px;height:13px;float: left;border-right:1px solid #333333 ;}
+.footer_nav ul li:hover{color: #FE6C00;}
+.footer_nav ul .focus{margin-top:0;margin-left:20px}
+.copyright{width: 1440px;height: 166px;}
+.copyright p{margin:34px 0 0 500px;font-size:14px;}
+.copyright p a{color: black;}
+.copyright .shanbiao{margin-left:520px;}
+
+
+/*其他页面头部的公共*/
+.welcome .margin{margin-left: 120px;}

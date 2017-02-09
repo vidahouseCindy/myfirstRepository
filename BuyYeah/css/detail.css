@@ -1,0 +1,46 @@
+/* 详情页*/
+
+.detail{width: 1340px;margin: auto;height:618px;background: #f1f1f1;}
+.detail h3{height: 40px;line-height: 40px;margin-left: 6px;}
+.detail .goods_detail{width: 1340px;height: 578px;position: relative;}
+
+/* 左边部分*/
+.goods_detail .left_detail{width: 485px;height: 578px;float: left;background: #f1f1f1;position: relative;}
+.big_img{position:relative;background: white;width:400px;height:400px;border: 1px solid #EAEAEA;margin:25px 0 0 34px;cursor: crosshair;}
+.big_img #big {width: 400px;height:400px;}
+.big_img img{max-width: 800px;max-height: 800px;}
+.small_img{background: white;width: 400px;height:89px;margin-left:35px;padding:25px 0 36px 0;}
+.small_img #small{width: 74px;height:74px;}
+.small_img div{width: 10px;height:14px;}
+.small_img ul{-width: 402px;-height: 89px;}
+.small_img ul li{width: 74px;height:74px;border: 1px solid #333333;margin-left:5px;cursor:pointer;}
+.small_img ul .active{border: 2px solid #d6b991;}
+.small_img ul #go_left{float: left;}
+.small_img ul li{float: left;}
+.small_img ul #go_right{float: right;}
+.small_img #go_left{margin:40px 10px 0 0;}
+.small_img #go_right{margin:40px 2px 0 0;}
+
+/* 被放大的图片*/
+div.zoomDiv{z-index:999;position:absolute;top:0;left:0;width:400px;height:400px;background:#ffffff;border:1px solid #CCCCCC;display:none;text-align:center;overflow:hidden;}
+/* 图片的遮罩层*/
+div.zoomMask{position:absolute;background:url("../img/mask.png") repeat scroll 0 0 transparent;cursor:move;z-index:1;}
+
+/*右边部分*/
+.right_detail{width:855px;height: 578px;float: right;}
+.right_detail .border li{border: 1px solid #d6b991;border-radius: 25px;height: 25px;width:45px;line-height: 25px;text-align: center;}
+.right_detail .detail_message{width: 855px;height: 385px;margin-top:40px;}
+.bargin_price{background: url(../img/dingdan01.jpg) no-repeat 0 0;width: 855px;height: 90px;-background: #93BC3A;margin-top:40px;}
+.bargin_price p{padding-left: 80px;color: #555555;}
+.mail{background: url(../img/mail.jpg) no-repeat 0 0;width: 855px;height: 34px;border-bottom: 1px dashed #CFCFCF;padding-top:8px;}
+
+.standard{height: 94px;border-bottom: 1px dashed #CFCFCF;position: relative;}
+.standard p{height: 39px;padding:10px 0;font-size:14px;}
+.add_cart{height: 100px;-background: #555555;padding-top:10px;}
+
+
+
+
+
+
+

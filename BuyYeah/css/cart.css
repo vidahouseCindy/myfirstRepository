@@ -1,0 +1,15 @@
+@charset "utf-8";
+.Cart{width: 1020px;margin: 10px auto;z-index: 1000;}
+.Cart table{border:1px solid #CFCFCF;width: 1020px;}
+.Cart th{border-bottom: 1px solid #DCDCDC;background: #f8f8f8;font-weight: 600;}
+.Cart table tr{height: 43px;background: #fffdee;}
+.Cart table td{text-align: center;}
+.Cart table td:nth-child(7){color:#C2100E;font-weight: bold;}
+.Cart table td a:hover{color: #FE6C00;}
+.Cart table td  .remove{color:#0000FF;text-decoration: underline;}
+.cheap{width: 1020px;margin: auto;height: 39px;border-bottom: 1px dashed #CFCFCF;}
+.cheap p{margin-left: 598px;line-height:39px;}
+.Cart .href{width: 260px;margin:auto;padding:6px 0 0 760px;}
+.tip{display:none;z-index:1001;width: 300px;height: 150px;border: 2px solid #DB0700;background:white;position: absolute;top:220px;left: 600px;}
+.tip h3{height: 40px;background:#DB0700 ;line-height: 40px;text-align: center;font-size: 20px;color: white;font-weight: bold;font-family: "微软雅黑";}
+.tip button{cursor:pointer;background: #FE6C00;border: 1px solid #FF6C02;border-radius: 5px;width: 50px;height: 30px;}

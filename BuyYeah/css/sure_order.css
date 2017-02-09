@@ -1,0 +1,11 @@
+@charset "utf-8";
+.sure_order{width: 1020px;min-height:580px;_height:652px;margin:10px  auto}
+.sure_order tr{height:28px;}
+.sure_order #align td{text-align: center;}
+.sure_order td{background: white;}
+.sure_order span{width: 1020px;height: 28px;}
+.sure_order a{color:black}
+ .sure_order div{font-weight:bold;border:1px solid #dddddd;height: 28px;width:1020px;background: #f6f6f6;line-height: 28px;}
+#tab_2 td{width: 212px;}
+.sure_order p{line-height: 34px;margin-left:760px;}
+textarea{resize: none;}
